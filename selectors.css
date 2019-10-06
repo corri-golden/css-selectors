@@ -14,6 +14,25 @@ a.disabled {
 .active {
     color: yellow;
 }
-div + h4 {
-    color: red;
+
+div + div {
+    background-color: red;
+}
+
+div ~ div {
+    color: blue;
+}
+
+div > h4 {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.promo {
+    font-weight: bold;
+    color: gold;
+}
+
+input {
+    line-height: 25px;
 }
